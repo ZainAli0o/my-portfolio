@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zain-Developer Porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(129, 129, 228);
+        font-size: 1.1rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSecion {
+        display: flex;
+        justify-content: space-around;
+        margin: 85px 0;
+        align-items: center;
+      }
+      .firstSecion > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 3rem;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      main {
+        margin-bottom: 100px; /* Add space between main content and footer */
+      }
+
+      .SecondSection {
+        max-width: 80vw;
+        margin: auto;
+        padding-bottom: 100px; /* Ensures spacing for the footer */
+      }
+
+      .SecondSection h1 {
+        font-size: 1.9rem;
+      }
+      .SecondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .SecondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(18, 18, 62);
+        padding: 30px 20px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      footer .social-icons {
+        margin: 20px 0;
+      }
+      footer .social-icons a {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        transition: color 0.3s;
+      }
+      footer .social-icons a:hover {
+        color: rgb(170, 107, 228);
+      }
+      footer p {
+        color: gray;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Zain's Porfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
+            <li><a href="/">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSecion">
+        <div class="leftSection">
+          Hi,my name is <span class="purple">Zain</span>
+          <div>and i am a Passionate</div>
+          <div>Web-Developer</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="Pic.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="SecondSection">
+        <span class="text-gray">What i have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="bg2.png" alt="" />
+            <div class="vertical-title">HTML</div>
+            <div class="vertical-desc">
+              HTML (HyperText Markup Language) is the core language for building
+              web pages. It structures content with elements like headings,
+              paragraphs, and links, forming the foundation of web development.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg2.png" alt="" />
+            <div class="vertical-title">CSS</div>
+            <div class="vertical-desc">
+              CSS (Cascading Style Sheets) is used to style and format web
+              pages. It controls layout, colors, fonts, and responsiveness,
+              enhancing HTML's visual presentation, ensuring consistency, and
+              improving user experience across devices.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg2.png" alt="" />
+            <div class="vertical-title">Javascript</div>
+            <div class="vertical-desc">
+              JavaScript is a powerful programming language for creating
+              interactive web pages. It enables dynamic features like
+              animations, form validation, and content updates, enhancing user
+              experience. Widely used, it works with HTML and CSS.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg2.png" alt="" />
+            <div class="vertical-title">React js</div>
+            <div class="vertical-desc">
+              React is a JavaScript library for building user interfaces.
+              Developed by Facebook, it enables the creation of reusable UI
+              components, ensures efficient rendering with a virtual DOM, and
+              simplifies building dynamic, responsive web applications.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg2.png" alt="" />
+            <div class="vertical-title">Node Js</div>
+            <div class="vertical-desc">
+              Node.js is a JavaScript runtime built on Chrome's V8 engine. It
+              allows developers to run JavaScript on the server side, enabling
+              scalable, fast, and efficient backend development for web
+              applications.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg2.png" alt="" />
+            <div class="vertical-title">Mongo DB</div>
+            <div class="vertical-desc">
+              MongoDB is a NoSQL database that stores data in a flexible,
+              JSON-like document format. It supports scalability, high
+              performance, and dynamic schemas, making it ideal for modern
+              applications requiring unstructured or semi-structured data.
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+      <p>&copy; 2025 Zain's Portfolio. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Designer",
+          "Mern Sack",
+          "Full Stack",
+          "Problem solver",
+          "UI/UX Designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
